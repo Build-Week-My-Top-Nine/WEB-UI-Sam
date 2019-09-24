@@ -201,6 +201,7 @@ header h1 {
   font-size: 28px;
   padding-bottom: 80px;
   padding-left: 45px;
+  text-shadow: 0 0 3px #33658A;
 }
 header .intro {
   display: flex;
@@ -213,11 +214,12 @@ header .intro {
   margin-left: 13px;
   margin-top: 15px;
   border-radius: 10px;
-  background-color: #187795;
+  background-color: #579CB1;
   opacity: 0.82;
   font-size: 18px;
   padding: 5px;
   text-align: left;
+  text-shadow: 0 0 3px #33658A;
 }
 nav {
   display: flex;
@@ -270,21 +272,22 @@ img {
 .main-content {
   display: inline-block;
   font-family: 'Ubuntu', sans-serif;
+  height: 2000px;
 }
 .main-content .purpose {
   display: flex;
   flex-direction: column;
   justify-content: center;
   position: relative;
-  border: 1px solid #187795;
+  border: 1px solid #33658A;
   height: 500px;
   width: 350px;
   margin-left: 2px;
   margin-top: 15px;
   border-radius: 10px;
-  background-color: #187795;
-  padding: 5px;
+  background-color: #579CB1;
   text-align: left;
+  padding: 5px;
   left: 1150px;
   top: 240px;
   height: 600px;
@@ -294,6 +297,7 @@ img {
   padding-left: 15px;
   font-size: 18px;
   font-family: 'Ubuntu', sans-serif;
+  text-shadow: 0 0 3px #33658A;
 }
 .main-content h3 {
   justify-content: center;
@@ -301,6 +305,7 @@ img {
   font-size: 28px;
   padding-bottom: 120px;
   padding-left: 130px;
+  text-shadow: 0 0 3px #33658A;
 }
 .main-content .purposeimg {
   position: relative;
@@ -314,24 +319,77 @@ img {
   flex-direction: column;
   justify-content: center;
   position: relative;
-  border: 1px solid #187795;
+  border: 1px solid #33658A;
   height: 500px;
   width: 350px;
   margin-left: 2px;
   margin-top: 15px;
   border-radius: 10px;
-  background-color: #187795;
+  background-color: #579CB1;
+  text-align: left;
   font-size: 18px;
   padding: 5px;
-  text-align: left;
   bottom: 230px;
   margin-left: 15px;
   width: 450px;
   height: 600px;
+  text-shadow: 0 0 3px #33658A;
+}
+.main-content .functions h3 {
+  padding-left: 100px;
+  text-shadow: 0 0 3px #33658A;
 }
 .main-content .functionimg {
   position: relative;
   left: 650px;
   bottom: 850px;
   border-radius: 30px;
+}
+.main-content .apply {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  border: 1px solid #33658A;
+  height: 500px;
+  width: 350px;
+  margin-left: 2px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: #579CB1;
+  text-align: left;
+  padding: 5px;
+  left: 1150px;
+  margin-left: 15px;
+  padding-left: 15px;
+  font-size: 18px;
+  width: 450px;
+  height: 600px;
+  bottom: 720px;
+  text-shadow: 0 0 3px #33658A;
+}
+.main-content .apply h3 {
+  padding-right: 50px;
+  text-shadow: 0 0 3px #33658A;
+}
+.main-content .applyimg {
+  border-radius: 30px;
+  position: relative;
+  bottom: 1350px;
+}
+.testimony .karen {
+  border-radius: 50%;
+  width: 8%;
+}
+.testimony .Hoby {
+  border-radius: 50%;
+  width: 8%;
+}
+.testimony .Tyler {
+  border-radius: 50%;
+  width: 8%;
+}
+.testimony .Katie {
+  border-radius: 50%;
+  width: 8%;
 }
