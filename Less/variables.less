@@ -7,20 +7,17 @@
 
 // Navigation Animation
 @keyframes colorcycle {
-    0%   {background-color:red; left:0px; top:0px;}
+    0%   {background-color: @base-color; left:0px; top:0px;}
     0%   {color: black;}
-    15%  {background-color: orange; left: 0px; top:0px;}
-    15%  {color: black;}
-    25%  {background-color:yellow; left:200px; top:0px;}
-    35%  {color: white;}
-	35%  {background-color: blue; left:200px; top:0px;}
-	50%  {background-color: blueviolet; left:200px; top:200px;}
-    65%  {background-color: purple; left:200px; top:200px;}
-    65%  {color: black;}
-	75%  {background-color:green; left:0px; top:200px;}
-	95%  {background-color: greenyellow; left:0px; top:150px;}
-    100% {background-color:black; left:0px; top:0px;}
-    100% {color: white;}
+    25%  {background-color: orange; left: 0px; top:0px;}
+    25%  {color: black;}
+    50%  {background-color:@accent-color; left:200px; top:0px;}
+    50%  {color: black;}
+	  75% {background-color: @head-color; left:200px; top:0px;}
+    85% {background-color: @secondary-color; left:200px; top:200px;}
+    85% {color: black;}
+    100% {background-color:@secondary-accent; left:0px; top:0px;}
+    100% {color: @head-color;}
   };
 // Nav slide
   @keyframes slidein{ 
@@ -34,3 +31,16 @@
 	width: 100%;
 	}
   };
+
+
+  // Media Query layouts
+
+  @mobile: ~"( max-width: 500px )";
+
+  @tablet: ~"( max-width: 900px )";
+
+  @laptop: ~"( max-width: 1440px )";
+
+  @desktop: ~"( max-width: 1680px )";
+
+  @XLscreen: ~"( max-width: 1920px )";

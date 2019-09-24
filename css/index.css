@@ -1,63 +1,48 @@
 @keyframes colorcycle {
   0% {
-    background-color: red;
+    background-color: #2589BD;
     left: 0px;
     top: 0px;
   }
   0% {
     color: black;
   }
-  15% {
+  25% {
     background-color: orange;
     left: 0px;
     top: 0px;
   }
-  15% {
+  25% {
     color: black;
   }
-  25% {
-    background-color: yellow;
-    left: 200px;
-    top: 0px;
-  }
-  35% {
-    color: white;
-  }
-  35% {
-    background-color: blue;
+  50% {
+    background-color: #E8C547;
     left: 200px;
     top: 0px;
   }
   50% {
-    background-color: blueviolet;
-    left: 200px;
-    top: 200px;
-  }
-  65% {
-    background-color: purple;
-    left: 200px;
-    top: 200px;
-  }
-  65% {
     color: black;
   }
   75% {
-    background-color: green;
-    left: 0px;
+    background-color: #33658A;
+    left: 200px;
+    top: 0px;
+  }
+  85% {
+    background-color: #187795;
+    left: 200px;
     top: 200px;
   }
-  95% {
-    background-color: greenyellow;
-    left: 0px;
-    top: 150px;
+  85% {
+    color: black;
   }
   100% {
-    background-color: black;
+    background-color: #F6AE2D;
     left: 0px;
     top: 0px;
   }
   100% {
-    color: white;
+    color: #33658A;
   }
 }
 @keyframes slidein {
@@ -198,13 +183,69 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-* {
-  background-color: #2589BD;
+header {
+  height: 800px;
+  width: 100%;
+  background-image: url(image-assets/packedthings.jpg);
 }
-.nav {
-  background-color: #33658A;
+nav {
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  background-color: black;
+  opacity: 0.85;
+  z-index: 1;
+}
+nav a:link {
+  padding: 20px;
+  width: 150px;
+  text-align: center;
+  margin: 0 auto;
+  color: #E8C547;
+  text-decoration: none;
+}
+nav a:visited {
+  color: #F6AE2D;
+}
+nav a:hover {
+  animation-duration: 20s;
+  animation-name: colorcycle;
+}
+nav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 0px;
+  margin-right: 10px;
+  font-size: 17px;
+}
+nav h1 {
+  color: #E8C547;
+  position: relative;
+  top: 20px;
+  margin-left: 30px;
 }
 img {
   display: flex;
-  width: 50%;
+  width: 35%;
+}
+.main-content {
+  display: inline-block;
+}
+.main-content .purpose {
+  display: inline-block;
+  position: relative;
+  left: 1250px;
+  border: 1px solid #187795;
+  height: 500px;
+  width: 600px;
+  margin-left: 20px;
+  border-radius: 10px;
+  background-color: #187795;
+  text-align: left;
+}
+.main-content p {
+  position: relative;
+  top: 150px;
+  background-color: #187795;
 }
