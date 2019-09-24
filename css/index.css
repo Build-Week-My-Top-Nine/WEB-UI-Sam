@@ -183,10 +183,41 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+body {
+  background-color: #2589BD;
+  font-family: 'Ubuntu', sans-serif;
+}
 header {
   height: 800px;
   width: 100%;
-  background-image: url(image-assets/packedthings.jpg);
+  background-image: url(/image-assets/packedthings.jpg);
+  background-size: 100%;
+  border-bottom: 1px solid #33658A;
+  opacity: 0.93;
+}
+header h1 {
+  position: relative;
+  color: #E8C547;
+  font-size: 28px;
+  padding-bottom: 80px;
+  padding-left: 45px;
+}
+header .intro {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  border: 1px solid #187795;
+  height: 600px;
+  width: 350px;
+  margin-left: 13px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: #187795;
+  opacity: 0.82;
+  font-size: 18px;
+  padding: 5px;
+  text-align: left;
 }
 nav {
   display: flex;
@@ -195,6 +226,7 @@ nav {
   background-color: black;
   opacity: 0.85;
   z-index: 1;
+  margin-bottom: -15px;
 }
 nav a:link {
   padding: 20px;
@@ -215,9 +247,15 @@ nav input[type=text] {
   float: right;
   padding: 6px;
   border: none;
-  margin-top: 0px;
+  margin-top: 8px;
   margin-right: 10px;
   font-size: 17px;
+  height: 23px;
+}
+nav button[type=submit] {
+  margin-top: 8px;
+  width: 100px;
+  height: 35px;
 }
 nav h1 {
   color: #E8C547;
@@ -227,25 +265,73 @@ nav h1 {
 }
 img {
   display: flex;
-  width: 35%;
+  width: 60%;
 }
 .main-content {
   display: inline-block;
+  font-family: 'Ubuntu', sans-serif;
 }
 .main-content .purpose {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   position: relative;
-  left: 1250px;
   border: 1px solid #187795;
   height: 500px;
-  width: 600px;
-  margin-left: 20px;
+  width: 350px;
+  margin-left: 2px;
+  margin-top: 15px;
   border-radius: 10px;
   background-color: #187795;
+  padding: 5px;
   text-align: left;
+  left: 1150px;
+  top: 240px;
+  height: 600px;
+  width: 26%;
+  margin-left: 20px;
+  margin-top: 10px;
+  padding-left: 15px;
+  font-size: 18px;
+  font-family: 'Ubuntu', sans-serif;
 }
-.main-content p {
+.main-content h3 {
+  justify-content: center;
+  color: #E8C547;
+  font-size: 28px;
+  padding-bottom: 120px;
+  padding-left: 130px;
+}
+.main-content .purposeimg {
   position: relative;
-  top: 150px;
+  bottom: 400px;
+  margin-bottom: 50px;
+  margin-left: 10px;
+  border-radius: 30px;
+}
+.main-content .functions {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  border: 1px solid #187795;
+  height: 500px;
+  width: 350px;
+  margin-left: 2px;
+  margin-top: 15px;
+  border-radius: 10px;
   background-color: #187795;
+  font-size: 18px;
+  padding: 5px;
+  text-align: left;
+  bottom: 230px;
+  margin-left: 15px;
+  width: 450px;
+  height: 600px;
+}
+.main-content .functionimg {
+  position: relative;
+  left: 650px;
+  bottom: 850px;
+  border-radius: 30px;
 }

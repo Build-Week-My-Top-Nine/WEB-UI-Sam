@@ -33,6 +33,25 @@
   };
 
 
+  // box layout var
+  .boxed(){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    border: 1px solid @secondary-color;
+    height: 500px;
+    width: 350px;
+    margin-left: 2px;
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: @secondary-color;
+    text-align: left;
+    font-size: 18px;
+    padding: 5px;
+    text-align: left;
+  }
+
   // Media Query layouts
 
   @mobile: ~"( max-width: 500px )";
@@ -43,4 +62,4 @@
 
   @desktop: ~"( max-width: 1680px )";
 
-  @XLscreen: ~"( max-width: 1920px )";
+ 
