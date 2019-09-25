@@ -265,6 +265,15 @@ nav h1 {
   top: 20px;
   margin-left: 30px;
 }
+footer {
+  height: 50px;
+  font-size: 24px;
+  color: #F6AE2D;
+  position: relative;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
 img {
   display: flex;
   width: 60%;
@@ -377,19 +386,192 @@ img {
   position: relative;
   bottom: 1350px;
 }
+.testimony {
+  display: inline-block;
+  position: relative;
+  height: 1300px;
+}
+.testimony h2 {
+  position: relative;
+  font-size: 28px;
+  color: #F6AE2D;
+  bottom: 150px;
+  left: 550px;
+  text-shadow: 0 0 6px #33658A;
+}
+.testimony .reviewer1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  border: 1px solid #33658A;
+  height: 500px;
+  width: 350px;
+  margin-left: 2px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: #579CB1;
+  text-align: left;
+  font-size: 18px;
+  padding: 5px;
+  text-shadow: 0 0 3px #33658A;
+  height: 100px;
+  border-radius: 40px;
+  padding-left: 40px;
+  left: 250px;
+  bottom: 100px;
+}
+.testimony .reviewer2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  border: 1px solid #33658A;
+  height: 500px;
+  width: 350px;
+  margin-left: 2px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: #579CB1;
+  text-align: left;
+  font-size: 18px;
+  padding: 5px;
+  text-shadow: 0 0 3px #33658A;
+  height: 100px;
+  border-radius: 40px;
+  padding-left: 40px;
+  left: 950px;
+}
+.testimony .reviewer3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  border: 1px solid #33658A;
+  height: 500px;
+  width: 350px;
+  margin-left: 2px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: #579CB1;
+  text-align: left;
+  font-size: 18px;
+  padding: 5px;
+  text-shadow: 0 0 3px #33658A;
+  height: 100px;
+  border-radius: 40px;
+  padding-left: 40px;
+  height: 150px;
+  left: 250px;
+}
+.testimony .reviewer4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  border: 1px solid #33658A;
+  height: 500px;
+  width: 350px;
+  margin-left: 2px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: #579CB1;
+  text-align: left;
+  font-size: 18px;
+  padding: 5px;
+  text-shadow: 0 0 3px #33658A;
+  height: 100px;
+  border-radius: 40px;
+  padding-left: 40px;
+  height: 150px;
+  left: 950px;
+}
 .testimony .karen {
+  position: relative;
   border-radius: 50%;
-  width: 8%;
+  width: 20%;
+  left: 85px;
+  bottom: 220px;
 }
 .testimony .Hoby {
   border-radius: 50%;
-  width: 8%;
+  width: 20%;
+  position: relative;
+  left: 800px;
+  bottom: 120px;
 }
 .testimony .Tyler {
   border-radius: 50%;
-  width: 8%;
+  width: 20%;
+  margin-left: 10px;
+  position: relative;
+  bottom: 150px;
+  left: 85px;
 }
 .testimony .Katie {
   border-radius: 50%;
-  width: 8%;
+  width: 20%;
+  position: relative;
+  left: 800px;
+  bottom: 150px;
+}
+.contacts {
+  height: 800px;
+  /* Style the submit button with a specific background color etc */
+  /* When moving the mouse over the submit button, add a darker green color */
+  /* Add a background color and some padding around the form */
+}
+.contacts h2 {
+  font-size: 34px;
+  color: #F6AE2D;
+  position: relative;
+  bottom: 100px;
+  left: 750px;
+}
+.contacts input[type=text],
+.contacts select,
+.contacts textarea {
+  width: 100%;
+  /* Full width */
+  padding: 12px;
+  /* Some padding */
+  border: 1px solid #33658A;
+  /* Gray border */
+  border-radius: 4px;
+  /* Rounded borders */
+  box-sizing: border-box;
+  /* Make sure that padding and width stays in place */
+  margin-top: 6px;
+  /* Add a top margin */
+  margin-bottom: 16px;
+  /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */;
+}
+.contacts input[type=submit] {
+  background-color: #E8C547;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  left: 150px;
+  width: 15%;
+}
+.contacts input[type=submit]:hover {
+  background-color: #F6AE2D;
+}
+.contacts .container {
+  border-radius: 5px;
+  background-color: #579CB1;
+  padding: 20px;
+  width: 50%;
+  position: relative;
+  left: 400px;
+}
+.contacts .container i {
+  position: relative;
+  left: 200px;
+  padding: 25px;
+  top: 10px;
 }
