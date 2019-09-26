@@ -580,3 +580,172 @@ img {
   padding: 25px;
   top: 10px;
 }
+.AboutUs {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+.AboutUs .Barbara {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #33658A;
+  height: 500px;
+  width: 350px;
+  margin-left: 2px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: #579CB1;
+  text-align: left;
+  font-size: 18px;
+  padding: 5px;
+  text-shadow: 0 0 3px #33658A;
+  position: relative;
+  left: 1000px;
+  width: 25%;
+  top: 170px;
+}
+.AboutUs .bar {
+  position: relative;
+  width: 40%;
+  bottom: 400px;
+  left: 100px;
+  border-radius: 30px;
+}
+.AboutUs .barbarm {
+  position: relative;
+  bottom: 370px;
+  left: 230px;
+  font-size: 28px;
+  text-shadow: 0 0 6px darkblue;
+}
+.AboutUs .barbarm a {
+  text-decoration: none;
+  color: #F6AE2D;
+}
+.AboutUs .barbarm a:visited {
+  color: #F6AE2D;
+}
+.AboutUs .Loralie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid #33658A;
+  height: 500px;
+  width: 350px;
+  margin-left: 2px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: #579CB1;
+  text-align: left;
+  font-size: 18px;
+  padding: 5px;
+  text-shadow: 0 0 3px #33658A;
+  position: relative;
+  left: 190px;
+  width: 30%;
+  bottom: 35px;
+  height: 650px;
+}
+.AboutUs .lor {
+  width: 30%;
+  height: 60%;
+  position: relative;
+  left: 1000px;
+  bottom: 800px;
+  border-radius: 30px;
+}
+.AboutUs .loralief {
+  position: relative;
+  bottom: 750px;
+  left: 1050px;
+  font-size: 28px;
+  text-shadow: 0 0 6px darkblue;
+}
+.AboutUs .loralief a {
+  text-decoration: none;
+  color: #F6AE2D;
+}
+.AboutUs .loralief a:visited {
+  color: #F6AE2D;
+}
+.AboutUs .Teddy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  border: 1px solid #33658A;
+  height: 500px;
+  width: 350px;
+  margin-left: 2px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: #579CB1;
+  text-align: left;
+  font-size: 18px;
+  padding: 5px;
+  text-shadow: 0 0 3px #33658A;
+}
+.AboutUs .ted {
+  width: 30%;
+}
+.AboutUs .Sam {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  border: 1px solid #33658A;
+  height: 500px;
+  width: 350px;
+  margin-left: 2px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: #579CB1;
+  text-align: left;
+  font-size: 18px;
+  padding: 5px;
+  text-shadow: 0 0 3px #33658A;
+}
+.AboutUs .samk {
+  width: 35%;
+}
+.AboutUs .michael {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  border: 1px solid #33658A;
+  height: 500px;
+  width: 350px;
+  margin-left: 2px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: #579CB1;
+  text-align: left;
+  font-size: 18px;
+  padding: 5px;
+  text-shadow: 0 0 3px #33658A;
+}
+.AboutUs .mic {
+  width: 35%;
+}
+.AboutUs .Alyssa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  border: 1px solid #33658A;
+  height: 500px;
+  width: 350px;
+  margin-left: 2px;
+  margin-top: 15px;
+  border-radius: 10px;
+  background-color: #579CB1;
+  text-align: left;
+  font-size: 18px;
+  padding: 5px;
+  text-shadow: 0 0 3px #33658A;
+}
+.AboutUs .aly {
+  width: 35%;
+}
