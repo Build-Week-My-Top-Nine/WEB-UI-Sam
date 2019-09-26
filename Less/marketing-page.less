@@ -1,7 +1,11 @@
+ 
 img{
     display: flex;
     width: 60%;
 }
+
+@media @desktop{
+
 
 .main-content{
     display: inline-block;
@@ -22,18 +26,25 @@ img{
         font-size: 18px;
         font-family: 'Ubuntu', sans-serif;
         text-shadow: 0 0 3px @head-color;
-       
+        @media @laptop{
+            left: 850px;
+            height: 500px;
+            top: 110px;    
+        }
       
     }
 
     h3{
-        // position: relative;
+      
         justify-content: center;
         color: @accent-color;
         font-size: 28px;
         padding-bottom: 120px;
         padding-left: 130px;
-        text-shadow: 0 0 3px @head-color;
+        text-shadow: 0 0 5px darkblue;
+        @media @laptop{
+            padding-left: 100px;        
+        }
     }
 
     .purposeimg{
@@ -42,6 +53,9 @@ img{
         margin-bottom: 50px;
         margin-left: 10px;
         border-radius: 30px;
+        @media @laptop{
+            width: 50%;       
+        }
     }
 
 
@@ -52,6 +66,9 @@ img{
         width: 450px;
         height: 600px;
         text-shadow: 0 0 3px @head-color;
+        @media @laptop{
+         bottom: 300px;           
+        }
        
     }
 
@@ -66,6 +83,9 @@ img{
         left: 650px;
         bottom: 850px;
         border-radius: 30px;
+        @media @laptop{
+         width: 50%;           
+        }
     
     }
 
@@ -80,11 +100,18 @@ img{
         height: 600px;
         bottom: 720px;
         text-shadow: 0 0 3px @head-color;
+        @media @laptop{
+            left: 800px;    
     }
 
+               
+    }
     .apply h3{
         padding-right: 50px;
         text-shadow: 0 0 3px @head-color;
+        @media @laptop{
+               padding-right: 65px;
+        }
         
     }
 
@@ -93,11 +120,19 @@ img{
         position: relative;
         bottom: 1350px;
         margin-left: 10px;
+        @media @laptop{
+         width: 50%;
+         bottom: 1250px;      
+        }
     }
 
     
 
 }
+
+}
+
+@media @desktop{
 
 .testimony{
     display: inline-block;
@@ -111,6 +146,9 @@ img{
         bottom: 150px;
         left: 550px;
         text-shadow: 0 0 6px @head-color;
+        @media @laptop{
+         left: 450px;      
+        }
     }
 
     
@@ -176,10 +214,11 @@ img{
     }
 
 
-
-
+}
 
 }
+
+@media @desktop{
 
 
      .contacts{
@@ -193,6 +232,9 @@ img{
             position: relative;
             bottom: 100px;
             left: 750px;
+            @media @laptop{
+             left: 550px;  
+            }
         }
 
         input[type=text], select, textarea {
@@ -232,6 +274,9 @@ img{
             width: 50%;
             position: relative;
             left: 400px;
+            @media @laptop{
+             left: 300px;  
+            }
            
           }
 
@@ -244,3 +289,4 @@ img{
           }
      }   
 
+}
