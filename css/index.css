@@ -221,6 +221,20 @@ header .intro {
   text-align: left;
   text-shadow: 0 0 3px #33658A;
 }
+.about {
+  background-image: url(/Image-assets/webdev.jpg);
+  height: 600px;
+  background-size: 100%;
+}
+.about h2 {
+  font-size: 60px;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  color: #E8C547;
+  text-shadow: 0 0 8px #33658A;
+  top: 20px;
+}
 nav {
   display: flex;
   align-content: center;
@@ -385,6 +399,7 @@ img {
   border-radius: 30px;
   position: relative;
   bottom: 1350px;
+  margin-left: 10px;
 }
 .testimony {
   display: inline-block;
@@ -517,9 +532,6 @@ img {
 }
 .contacts {
   height: 800px;
-  /* Style the submit button with a specific background color etc */
-  /* When moving the mouse over the submit button, add a darker green color */
-  /* Add a background color and some padding around the form */
 }
 .contacts h2 {
   font-size: 34px;
@@ -532,20 +544,13 @@ img {
 .contacts select,
 .contacts textarea {
   width: 100%;
-  /* Full width */
   padding: 12px;
-  /* Some padding */
   border: 1px solid #33658A;
-  /* Gray border */
   border-radius: 4px;
-  /* Rounded borders */
   box-sizing: border-box;
-  /* Make sure that padding and width stays in place */
   margin-top: 6px;
-  /* Add a top margin */
   margin-bottom: 16px;
-  /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */;
+  resize: vertical;
 }
 .contacts input[type=submit] {
   background-color: #E8C547;
