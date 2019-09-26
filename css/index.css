@@ -224,6 +224,7 @@ header .intro {
 .about {
   background-image: url(/Image-assets/webdev.jpg);
   height: 600px;
+  margin-top: 15px;
   background-size: 100%;
 }
 .about h2 {
@@ -673,7 +674,6 @@ img {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
   border: 1px solid #33658A;
   height: 500px;
   width: 350px;
@@ -685,9 +685,17 @@ img {
   font-size: 18px;
   padding: 5px;
   text-shadow: 0 0 3px #33658A;
+  position: relative;
+  left: 1000px;
+  width: 25%;
+  bottom: 550px;
 }
 .AboutUs .ted {
   width: 30%;
+  position: relative;
+  bottom: 1120px;
+  left: 150px;
+  border-radius: 30px;
 }
 .AboutUs .Sam {
   display: flex;
