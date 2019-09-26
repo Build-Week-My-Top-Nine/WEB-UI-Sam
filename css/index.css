@@ -585,6 +585,7 @@ img {
   display: block;
   position: relative;
   width: 100%;
+  height: 6000px;
 }
 .AboutUs .Barbara {
   display: flex;
@@ -605,6 +606,14 @@ img {
   left: 1000px;
   width: 25%;
   top: 170px;
+  padding-left: 15px;
+}
+.AboutUs .Barbara h2 {
+  padding-left: 100px;
+  color: #E8C547;
+  font-size: 24px;
+  padding-bottom: 20px;
+  text-shadow: 0 0 5px darkblue;
 }
 .AboutUs .bar {
   position: relative;
@@ -647,10 +656,17 @@ img {
   width: 30%;
   bottom: 35px;
   height: 650px;
+  padding-left: 15px;
+}
+.AboutUs .Loralie h2 {
+  padding-left: 175px;
+  color: #E8C547;
+  font-size: 24px;
+  padding-bottom: 40px;
+  text-shadow: 0 0 5px darkblue;
 }
 .AboutUs .lor {
   width: 30%;
-  height: 60%;
   position: relative;
   left: 1000px;
   bottom: 800px;
@@ -686,22 +702,43 @@ img {
   padding: 5px;
   text-shadow: 0 0 3px #33658A;
   position: relative;
-  left: 1000px;
+  left: 1050px;
   width: 25%;
-  bottom: 550px;
+  bottom: 490px;
+  padding-left: 15px;
+}
+.AboutUs .Teddy h2 {
+  padding-left: 110px;
+  color: #E8C547;
+  font-size: 24px;
+  padding-bottom: 40px;
+  text-shadow: 0 0 5px darkblue;
 }
 .AboutUs .ted {
-  width: 30%;
+  width: 35%;
   position: relative;
   bottom: 1120px;
   left: 150px;
   border-radius: 30px;
 }
+.AboutUs .teddz {
+  position: relative;
+  bottom: 1110px;
+  left: 150px;
+  font-size: 28px;
+  text-shadow: 0 0 6px darkblue;
+}
+.AboutUs .teddz a {
+  text-decoration: none;
+  color: #F6AE2D;
+}
+.AboutUs .teddz a:visited {
+  color: #F6AE2D;
+}
 .AboutUs .Sam {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
   border: 1px solid #33658A;
   height: 500px;
   width: 350px;
@@ -713,15 +750,44 @@ img {
   font-size: 18px;
   padding: 5px;
   text-shadow: 0 0 3px #33658A;
+  position: relative;
+  left: 190px;
+  width: 30%;
+  bottom: 800px;
+  padding-left: 15px;
+}
+.AboutUs .Sam h2 {
+  padding-left: 170px;
+  color: #E8C547;
+  font-size: 24px;
+  padding-bottom: 40px;
+  text-shadow: 0 0 5px darkblue;
 }
 .AboutUs .samk {
   width: 35%;
+  position: relative;
+  left: 1000px;
+  bottom: 1275px;
+  border-radius: 30px;
+}
+.AboutUs .samu {
+  position: relative;
+  bottom: 1250px;
+  left: 1000px;
+  font-size: 28px;
+  text-shadow: 0 0 6px darkblue;
+}
+.AboutUs .samu a {
+  text-decoration: none;
+  color: #F6AE2D;
+}
+.AboutUs .samu a:visited {
+  color: #F6AE2D;
 }
 .AboutUs .michael {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
   border: 1px solid #33658A;
   height: 500px;
   width: 350px;
@@ -733,15 +799,45 @@ img {
   font-size: 18px;
   padding: 5px;
   text-shadow: 0 0 3px #33658A;
+  position: relative;
+  left: 1050px;
+  width: 25%;
+  bottom: 950px;
+  padding-left: 15px;
+}
+.AboutUs .michael h2 {
+  padding-left: 120px;
+  color: #E8C547;
+  font-size: 24px;
+  padding-bottom: 40px;
+  text-shadow: 0 0 5px darkblue;
 }
 .AboutUs .mic {
   width: 35%;
+  position: relative;
+  bottom: 1500px;
+  left: 150px;
+  border-radius: 30px;
+}
+.AboutUs .micha {
+  position: relative;
+  bottom: 1480px;
+  left: 205px;
+  font-size: 28px;
+  text-shadow: 0 0 6px darkblue;
+}
+.AboutUs .micha a {
+  text-decoration: none;
+  color: #F6AE2D;
+}
+.AboutUs .micha a:visited {
+  text-decoration: none;
+  color: #F6AE2D;
 }
 .AboutUs .Alyssa {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  position: relative;
   border: 1px solid #33658A;
   height: 500px;
   width: 350px;
@@ -753,7 +849,87 @@ img {
   font-size: 18px;
   padding: 5px;
   text-shadow: 0 0 3px #33658A;
+  position: relative;
+  left: 190px;
+  width: 30%;
+  bottom: 1250px;
+  padding-left: 15px;
+}
+.AboutUs .Alyssa h2 {
+  padding-left: 150px;
+  color: #E8C547;
+  font-size: 24px;
+  padding-bottom: 40px;
+  text-shadow: 0 0 5px darkblue;
 }
 .AboutUs .aly {
   width: 35%;
+  position: relative;
+  left: 1000px;
+  bottom: 1800px;
+  border-radius: 30px;
+}
+.AboutUs .alys {
+  position: relative;
+  bottom: 1780px;
+  left: 1100px;
+  font-size: 28px;
+  text-shadow: 0 0 6px darkblue;
+}
+.AboutUs .alys a {
+  text-decoration: none;
+  color: #F6AE2D;
+}
+.AboutUs .alys a:visited {
+  color: #F6AE2D;
+}
+.abcontacts {
+  height: 800px;
+}
+.abcontacts h2 {
+  font-size: 34px;
+  color: #F6AE2D;
+  position: relative;
+  bottom: 100px;
+  left: 470px;
+}
+.abcontacts input[type=text],
+.abcontacts select,
+.abcontacts textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #33658A;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.abcontacts input[type=submit] {
+  background-color: #E8C547;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  left: 150px;
+  width: 15%;
+}
+.abcontacts input[type=submit]:hover {
+  background-color: #F6AE2D;
+}
+.abcontacts .container {
+  border-radius: 5px;
+  background-color: #579CB1;
+  padding: 20px;
+  width: 50%;
+  position: relative;
+  left: 400px;
+}
+.abcontacts .container i {
+  position: relative;
+  left: 200px;
+  padding: 25px;
+  top: 10px;
 }
