@@ -213,6 +213,11 @@ header h1 {
   padding-left: 45px;
   text-shadow: 0 0 3px #33658A;
 }
+@media ( max-width: 500px ) {
+  header h1 {
+    padding-left: 65px;
+  }
+}
 header .intro {
   display: flex;
   flex-direction: column;
@@ -283,11 +288,14 @@ nav {
   opacity: 0.85;
   z-index: 1;
   margin-bottom: -15px;
+  animation-duration: 5s;
+  animation-name: slidein;
 }
 @media ( max-width: 500px ) {
   nav {
     display: flex;
     flex-direction: column;
+    animation: none;
   }
 }
 nav a:link {
@@ -508,6 +516,12 @@ img {
   .main-content h3 {
     padding-left: 70px;
     padding-bottom: 50px;
+  }
+}
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .main-content h3 {
+    padding-left: 30px;
+    font-size: 24px;
   }
 }
 @media ( max-width: 1680px ) and ( max-width: 1440px ) {
@@ -1314,6 +1328,11 @@ img {
     height: 4000px;
   }
 }
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .AboutUs {
+    height: 2550px;
+  }
+}
 @media ( max-width: 1680px ) and ( max-width: 1440px ) {
   .AboutUs .Barbara {
     left: 900px;
@@ -1328,6 +1347,14 @@ img {
     top: 50px;
   }
 }
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .AboutUs .Barbara {
+    left: 250px;
+    height: 300px;
+    font-size: 12px;
+    top: 20px;
+  }
+}
 @media ( max-width: 1680px ) and ( max-width: 1440px ) {
   .AboutUs .Barbara h2 {
     padding-left: 80px;
@@ -1338,9 +1365,21 @@ img {
     padding-left: 50px;
   }
 }
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .AboutUs .Barbara h2 {
+    font-size: 20px;
+    padding-left: 45px;
+  }
+}
 @media ( max-width: 1680px ) and ( max-width: 900px ) {
   .AboutUs .bar {
     bottom: 330px;
+  }
+}
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .AboutUs .bar {
+    left: 10px;
+    margin-top: 100px;
   }
 }
 @media ( max-width: 1680px ) and ( max-width: 1440px ) {
@@ -1354,6 +1393,12 @@ img {
     bottom: 320px;
   }
 }
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .AboutUs .barbarm {
+    font-size: 14px;
+    left: 15px;
+  }
+}
 @media ( max-width: 1680px ) and ( max-width: 900px ) {
   .AboutUs .Loralie {
     bottom: 200px;
@@ -1362,9 +1407,25 @@ img {
     left: 90px;
   }
 }
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .AboutUs .Loralie {
+    left: 250px;
+    height: 330px;
+    font-size: 12px;
+    bottom: 300px;
+    width: 35%;
+  }
+}
 @media ( max-width: 1680px ) and ( max-width: 1440px ) {
   .AboutUs .Loralie h2 {
     padding-left: 135px;
+  }
+}
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .AboutUs .Loralie h2 {
+    font-size: 20px;
+    padding-left: 25px;
+    padding-bottom: 25px;
   }
 }
 @media ( max-width: 1680px ) and ( max-width: 1440px ) {
@@ -1377,6 +1438,12 @@ img {
   .AboutUs .lor {
     left: 570px;
     bottom: 700px;
+  }
+}
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .AboutUs .lor {
+    left: 10px;
+    margin-top: 100px;
   }
 }
 @media ( max-width: 1680px ) and ( max-width: 1440px ) {
@@ -1392,6 +1459,12 @@ img {
     bottom: 680px;
   }
 }
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .AboutUs .loralief {
+    font-size: 14px;
+    left: 15px;
+  }
+}
 @media ( max-width: 1680px ) and ( max-width: 1440px ) {
   .AboutUs .Teddy {
     left: 950px;
@@ -1405,6 +1478,14 @@ img {
     width: 35%;
   }
 }
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .AboutUs .Teddy {
+    left: 250px;
+    height: 280px;
+    font-size: 12px;
+    bottom: 680px;
+  }
+}
 @media ( max-width: 1680px ) and ( max-width: 1440px ) {
   .AboutUs .Teddy h2 {
     padding-left: 85px;
@@ -1415,10 +1496,23 @@ img {
     padding-left: 60px;
   }
 }
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .AboutUs .Teddy h2 {
+    font-size: 20px;
+    padding-left: 45px;
+  }
+}
 @media ( max-width: 1680px ) and ( max-width: 900px ) {
   .AboutUs .ted {
     left: 100px;
     bottom: 1000px;
+  }
+}
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .AboutUs .ted {
+    left: 10px;
+    margin-top: 100px;
+    bottom: 1025px;
   }
 }
 @media ( max-width: 1680px ) and ( max-width: 1440px ) {
@@ -1434,10 +1528,24 @@ img {
     left: 55px;
   }
 }
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .AboutUs .teddz {
+    font-size: 14px;
+    left: 15px;
+  }
+}
 @media ( max-width: 1680px ) and ( max-width: 900px ) {
   .AboutUs .Sam {
     left: 80px;
     width: 40%;
+  }
+}
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .AboutUs .Sam {
+    left: 250px;
+    height: 400px;
+    font-size: 12px;
+    bottom: 950px;
   }
 }
 @media ( max-width: 1680px ) and ( max-width: 1440px ) {
@@ -1450,6 +1558,12 @@ img {
     padding-left: 90px;
   }
 }
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .AboutUs .Sam h2 {
+    padding-left: 30px;
+    font-size: 20px;
+  }
+}
 @media ( max-width: 1680px ) and ( max-width: 1440px ) {
   .AboutUs .samk {
     left: 850px;
@@ -1458,6 +1572,13 @@ img {
 @media ( max-width: 1680px ) and ( max-width: 900px ) {
   .AboutUs .samk {
     left: 500px;
+  }
+}
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .AboutUs .samk {
+    left: 10px;
+    margin-top: 50px;
+    width: 45%;
   }
 }
 @media ( max-width: 1680px ) and ( max-width: 1440px ) {
@@ -1472,6 +1593,13 @@ img {
     font-size: 18px;
   }
 }
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .AboutUs .samu {
+    font-size: 14px;
+    left: 15px;
+    bottom: 1150px;
+  }
+}
 @media ( max-width: 1680px ) and ( max-width: 1440px ) {
   .AboutUs .michael {
     left: 850px;
@@ -1484,6 +1612,14 @@ img {
     height: 450px;
   }
 }
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .AboutUs .michael {
+    left: 250px;
+    height: 300px;
+    font-size: 12px;
+    bottom: 1100px;
+  }
+}
 @media ( max-width: 1680px ) and ( max-width: 1440px ) {
   .AboutUs .michael h2 {
     padding-left: 85px;
@@ -1494,10 +1630,23 @@ img {
     padding-left: 70px;
   }
 }
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .AboutUs .michael h2 {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+}
 @media ( max-width: 1680px ) and ( max-width: 900px ) {
   .AboutUs .mic {
     bottom: 1320px;
     left: 130px;
+  }
+}
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .AboutUs .mic {
+    left: 10px;
+    margin-top: 100px;
+    bottom: 1450px;
   }
 }
 @media ( max-width: 1680px ) and ( max-width: 1440px ) {
@@ -1512,11 +1661,27 @@ img {
     bottom: 1300px;
   }
 }
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .AboutUs .micha {
+    font-size: 14px;
+    left: 15px;
+    bottom: 1350px;
+  }
+}
 @media ( max-width: 1680px ) and ( max-width: 900px ) {
   .AboutUs .Alyssa {
     width: 40%;
     left: 100px;
     height: 400px;
+  }
+}
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .AboutUs .Alyssa {
+    left: 280px;
+    height: 280px;
+    font-size: 12px;
+    bottom: 1350px;
+    width: 30%;
   }
 }
 @media ( max-width: 1680px ) and ( max-width: 1440px ) {
@@ -1529,6 +1694,12 @@ img {
     padding-left: 80px;
   }
 }
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .AboutUs .Alyssa h2 {
+    font-size: 20px;
+    padding-left: 30px;
+  }
+}
 @media ( max-width: 1680px ) and ( max-width: 1440px ) {
   .AboutUs .aly {
     left: 850px;
@@ -1538,6 +1709,12 @@ img {
 @media ( max-width: 1680px ) and ( max-width: 900px ) {
   .AboutUs .aly {
     left: 520px;
+    bottom: 1600px;
+  }
+}
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .AboutUs .aly {
+    left: 10px;
     bottom: 1600px;
   }
 }
@@ -1554,6 +1731,12 @@ img {
     bottom: 1590px;
   }
 }
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .AboutUs .alys {
+    font-size: 14px;
+    left: 15px;
+  }
+}
 @media ( max-width: 1680px ) and ( max-width: 1440px ) {
   .abcontacts h2 {
     left: 370px;
@@ -1565,9 +1748,21 @@ img {
     font-size: 28px;
   }
 }
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .abcontacts h2 {
+    font-size: 20px;
+    left: 30px;
+  }
+}
 @media ( max-width: 1680px ) and ( max-width: 900px ) {
   .abcontacts input[type=submit] {
     left: 70px;
+  }
+}
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .abcontacts input[type=submit] {
+    left: 20px;
+    width: 25%;
   }
 }
 @media ( max-width: 1680px ) and ( max-width: 1440px ) {
@@ -1581,8 +1776,20 @@ img {
     width: 65%;
   }
 }
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .abcontacts .container {
+    left: 25px;
+    width: 80%;
+  }
+}
 @media ( max-width: 1680px ) and ( max-width: 900px ) {
   .abcontacts .container i {
     left: 90px;
+  }
+}
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .abcontacts .container i {
+    left: 40px;
+    padding: 5px;
   }
 }
