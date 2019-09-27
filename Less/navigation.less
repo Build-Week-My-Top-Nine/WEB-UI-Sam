@@ -1,0 +1,90 @@
+nav{
+    display: flex;
+    align-content: center;
+    justify-content:space-between;
+    background-color: black;
+    opacity: 0.85;
+    z-index: 1;
+    margin-bottom: -15px;
+    animation-duration: 5s;
+    animation-name: slidein;
+    @media @mobile{
+        display: flex;
+        flex-direction: column;
+        animation: none;
+    }
+
+
+    a:link{
+        
+        padding: 20px;
+        width: 150px;
+        text-align: center;
+        margin: 0 auto;
+        
+        color: @accent-color;
+        text-decoration: none;
+        @media @mobile{
+            width: 100%;
+            margin-top: 10px;
+            padding:8px;
+            opacity: 0.8
+        }
+    
+     }
+
+     a:visited{
+         color: @secondary-accent;
+     }
+
+     a:hover{
+         animation-duration: 20s;
+         animation-name: colorcycle;
+     }
+    
+
+     input[type=text] {
+        float: right;
+        padding: 6px;
+        border: none;
+        margin-top: 8px;
+        margin-right: 10px;
+        font-size: 17px;
+        height: 23px;
+      }
+
+
+      button[type=submit]{
+          margin-top: 8px;
+          width: 100px;
+          height: 35px;
+          @media @mobile{
+            position: relative;
+            left: 100px;
+            width: 55%;
+            margin-top: 4px;
+        }
+    
+      }
+
+
+      h1{
+          color: @accent-color;
+          position: relative;
+          top: 20px;
+          margin-left: 30px;
+
+          @media @mobile{
+            margin-left: 210px;
+            margin-bottom: 25px;
+        }
+    
+      }
+      
+      
+};
+
+
+
+
+

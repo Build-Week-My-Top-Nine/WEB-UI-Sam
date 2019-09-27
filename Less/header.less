@@ -1,0 +1,100 @@
+header{
+    // display: flex;
+    height: 800px;
+    width: 100%;
+    background-image: url(/image-assets/packedthings.jpg);
+    background-size: 100%;
+    border-bottom: 1px solid @head-color;
+    opacity: 0.93;
+    @media @tablet{
+        height: 580px;
+    }
+    @media @mobile{
+        height: 300px;
+    }
+
+
+
+    h1{
+        position: relative;
+        color: @accent-color;
+        font-size: 28px;
+        padding-bottom: 80px;
+        padding-left: 45px;
+        text-shadow: 0 0 3px @head-color;
+        @media @mobile{
+            padding-left: 65px;
+        }
+    }
+
+
+    .intro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        border: 1px solid @secondary-color;
+        height: 600px;
+        width: 350px;
+        margin-left: 13px;
+        margin-top: 15px;
+        border-radius: 10px;
+        background-color: @box-color;
+        text-align: left;
+        opacity: 0.82;
+        font-size: 18px;
+        padding: 5px;
+        text-align: left;
+        text-shadow: 0 0 3px @head-color;
+        @media @tablet{
+            height: 450px;
+            
+        }
+
+        @media @mobile{
+            height: 220px;
+            width: 400px;
+            font-size: 16px;
+            top: 320px;
+            left: 20px;
+        }
+    
+    }
+
+   
+    
+
+
+};
+
+.about{
+    background-image: url(/Image-assets/webdev.jpg);
+    height: 600px;
+    margin-top: 15px;
+    background-size: 100%;
+    @media @tablet{
+        height: 480px;
+    }
+    @media @mobile{
+        height: 300px;
+    }
+
+    
+
+    h2{
+        font-size: 60px;
+        display: flex;
+        position: relative;
+        justify-content: center;
+        color: @accent-color;
+        text-shadow: 0 0 8px @head-color;
+        top: 20px;
+        @media @mobile{
+            font-size: 38px;
+            
+        }
+    
+    }
+   
+
+}
