@@ -9,6 +9,11 @@ header{
     @media @tablet{
         height: 580px;
     }
+    @media @mobile{
+        height: 300px;
+    }
+
+
 
     h1{
         position: relative;
@@ -42,6 +47,15 @@ header{
             height: 450px;
             
         }
+
+        @media @mobile{
+            height: 220px;
+            width: 400px;
+            font-size: 16px;
+            top: 320px;
+            left: 20px;
+        }
+    
     }
 
    
@@ -58,6 +72,10 @@ header{
     @media @tablet{
         height: 480px;
     }
+    @media @mobile{
+        height: 300px;
+    }
+
     
 
     h2{
@@ -68,5 +86,11 @@ header{
         color: @accent-color;
         text-shadow: 0 0 8px @head-color;
         top: 20px;
+        @media @mobile{
+            font-size: 38px;
+        }
+    
     }
+   
+
 }

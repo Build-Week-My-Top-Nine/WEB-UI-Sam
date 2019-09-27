@@ -8,6 +8,10 @@ nav{
     margin-bottom: -15px;
     // animation-duration: 5s;
     // animation-name: slidein;
+    @media @mobile{
+        display: flex;
+        flex-direction: column;
+    }
 
 
     a:link{
@@ -19,6 +23,13 @@ nav{
         
         color: @accent-color;
         text-decoration: none;
+        @media @mobile{
+            width: 100%;
+            margin-top: 10px;
+            padding:8px;
+            opacity: 0.8
+        }
+    
      }
 
      a:visited{
@@ -46,6 +57,13 @@ nav{
           margin-top: 8px;
           width: 100px;
           height: 35px;
+          @media @mobile{
+            position: relative;
+            left: 100px;
+            width: 55%;
+            margin-top: 4px;
+        }
+    
       }
 
 
@@ -55,6 +73,11 @@ nav{
           top: 20px;
           margin-left: 30px;
 
+          @media @mobile{
+            margin-left: 210px;
+            margin-bottom: 25px;
+        }
+    
       }
       
       
@@ -64,14 +87,3 @@ nav{
 
 
 
-// .header-nav{
-// 	/* Position fixed to make nav bar follow while scrolling */
-// 	position: fixed;   
-// 	top: 30px;
-// 	/* Centered Nav bar for aesthetic */
-// 	left: 500px;
-// 	overflow: hidden;
-// 	animation-duration: 3s;
-// 	animation-name: slidein;
-// 	z-index: 1;
-// }

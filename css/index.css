@@ -200,6 +200,11 @@ header {
     height: 580px;
   }
 }
+@media ( max-width: 500px ) {
+  header {
+    height: 300px;
+  }
+}
 header h1 {
   position: relative;
   color: #E8C547;
@@ -231,6 +236,15 @@ header .intro {
     height: 450px;
   }
 }
+@media ( max-width: 500px ) {
+  header .intro {
+    height: 220px;
+    width: 400px;
+    font-size: 16px;
+    top: 320px;
+    left: 20px;
+  }
+}
 .about {
   background-image: url(/Image-assets/webdev.jpg);
   height: 600px;
@@ -242,6 +256,11 @@ header .intro {
     height: 480px;
   }
 }
+@media ( max-width: 500px ) {
+  .about {
+    height: 300px;
+  }
+}
 .about h2 {
   font-size: 60px;
   display: flex;
@@ -250,6 +269,11 @@ header .intro {
   color: #E8C547;
   text-shadow: 0 0 8px #33658A;
   top: 20px;
+}
+@media ( max-width: 500px ) {
+  .about h2 {
+    font-size: 38px;
+  }
 }
 nav {
   display: flex;
@@ -260,6 +284,12 @@ nav {
   z-index: 1;
   margin-bottom: -15px;
 }
+@media ( max-width: 500px ) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
 nav a:link {
   padding: 20px;
   width: 150px;
@@ -267,6 +297,14 @@ nav a:link {
   margin: 0 auto;
   color: #E8C547;
   text-decoration: none;
+}
+@media ( max-width: 500px ) {
+  nav a:link {
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px;
+    opacity: 0.8;
+  }
 }
 nav a:visited {
   color: #F6AE2D;
@@ -289,11 +327,25 @@ nav button[type=submit] {
   width: 100px;
   height: 35px;
 }
+@media ( max-width: 500px ) {
+  nav button[type=submit] {
+    position: relative;
+    left: 100px;
+    width: 55%;
+    margin-top: 4px;
+  }
+}
 nav h1 {
   color: #E8C547;
   position: relative;
   top: 20px;
   margin-left: 30px;
+}
+@media ( max-width: 500px ) {
+  nav h1 {
+    margin-left: 210px;
+    margin-bottom: 25px;
+  }
 }
 footer {
   height: 50px;
@@ -427,6 +479,11 @@ img {
     height: 1700px;
   }
 }
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .main-content {
+    height: 1850px;
+  }
+}
 @media ( max-width: 1680px ) and ( max-width: 1440px ) {
   .main-content .purpose {
     left: 850px;
@@ -463,6 +520,13 @@ img {
     bottom: 350px;
   }
 }
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .main-content .purposeimg {
+    bottom: 150px;
+    left: 40px;
+    width: 75%;
+  }
+}
 @media ( max-width: 1680px ) and ( max-width: 1440px ) {
   .main-content .functions {
     bottom: 300px;
@@ -474,6 +538,15 @@ img {
     width: 350px;
     bottom: 250px;
     padding-left: 15px;
+  }
+}
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .main-content .functions {
+    height: 220px;
+    font-size: 14px;
+    width: 400px;
+    bottom: 170px;
+    left: 20px;
   }
 }
 @media ( max-width: 1680px ) and ( max-width: 1440px ) {
@@ -488,6 +561,13 @@ img {
     bottom: 680px;
   }
 }
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .main-content .functionimg {
+    left: 60px;
+    bottom: 130px;
+    width: 70%;
+  }
+}
 @media ( max-width: 1680px ) and ( max-width: 1440px ) {
   .main-content .apply {
     left: 800px;
@@ -499,6 +579,15 @@ img {
     width: 300px;
     height: 450px;
     bottom: 500px;
+  }
+}
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .main-content .apply {
+    left: 20px;
+    height: 220px;
+    width: 400px;
+    font-size: 14px;
+    bottom: 100px;
   }
 }
 @media ( max-width: 1680px ) and ( max-width: 1440px ) {
@@ -515,6 +604,13 @@ img {
 @media ( max-width: 1680px ) and ( max-width: 900px ) {
   .main-content .applyimg {
     bottom: 900px;
+  }
+}
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .main-content .applyimg {
+    bottom: 60px;
+    left: 50px;
+    width: 75%;
   }
 }
 @media ( max-width: 1680px ) {
@@ -658,9 +754,38 @@ img {
     left: 250px;
   }
 }
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .testimony h2 {
+    left: 45px;
+    font-size: 24px;
+  }
+}
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .testimony .reviewer1 {
+    left: 160px;
+    width: 50%;
+    font-size: 18px;
+  }
+}
 @media ( max-width: 1680px ) and ( max-width: 900px ) {
   .testimony .reviewer2 {
     left: 250px;
+  }
+}
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .testimony .reviewer2 {
+    width: 50%;
+    left: 160px;
+    font-size: 18px;
+    bottom: 60px;
+  }
+}
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .testimony .reviewer3 {
+    width: 55%;
+    left: 160px;
+    font-size: 14px;
+    bottom: 60px;
   }
 }
 @media ( max-width: 1680px ) and ( max-width: 900px ) {
@@ -668,14 +793,46 @@ img {
     left: 250px;
   }
 }
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .testimony .reviewer4 {
+    width: 55%;
+    left: 160px;
+    font-size: 14px;
+    bottom: 60px;
+  }
+}
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .testimony .karen {
+    left: 30px;
+    bottom: 210px;
+  }
+}
 @media ( max-width: 1680px ) and ( max-width: 900px ) {
   .testimony .Hoby {
     left: 85px;
   }
 }
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .testimony .Hoby {
+    left: 30px;
+    bottom: 160px;
+  }
+}
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .testimony .Tyler {
+    left: 30px;
+    bottom: 190px;
+  }
+}
 @media ( max-width: 1680px ) and ( max-width: 900px ) {
   .testimony .Katie {
     left: 85px;
+  }
+}
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .testimony .Katie {
+    left: 30px;
+    bottom: 190px;
   }
 }
 @media ( max-width: 1680px ) {
@@ -741,9 +898,21 @@ img {
     bottom: 150px;
   }
 }
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .contacts h2 {
+    font-size: 28px;
+    left: 150px;
+  }
+}
 @media ( max-width: 1680px ) and ( max-width: 900px ) {
   .contacts input[type=submit] {
     left: 70px;
+  }
+}
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .contacts input[type=submit] {
+    left: 20px;
+    width: 25%;
   }
 }
 @media ( max-width: 1680px ) and ( max-width: 1440px ) {
@@ -757,9 +926,21 @@ img {
     width: 65%;
   }
 }
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .contacts .container {
+    left: 25px;
+    width: 80%;
+  }
+}
 @media ( max-width: 1680px ) and ( max-width: 900px ) {
   .contacts .container i {
     left: 90px;
+  }
+}
+@media ( max-width: 1680px ) and ( max-width: 500px ) {
+  .contacts .container i {
+    left: 40px;
+    padding: 5px;
   }
 }
 @media ( max-width: 1680px ) {
